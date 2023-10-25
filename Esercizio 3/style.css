@@ -1,0 +1,34 @@
+*{  
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+#heading {
+color: rgb(17, 117, 17);
+background-color: rgb(255, 249, 165);
+} 
+
+
+#ft {
+color: rgb(194, 34, 34)  ;
+text-transform: uppercase;
+font-weight: bold;
+}
+
+
+#image {
+    color: rgb(175, 174, 174)
+}
+
+.blue {
+    color: rgb(12, 136, 145);
+}
+
+.title  {
+    font-weight: bolder;
+}
+
+hr {
+    border-color: rgb(214, 245, 250);
+}
+
