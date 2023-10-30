@@ -16,7 +16,7 @@ REGOLE
 // Il dato Stringa è un dato che viene indicato mediante un testo all'interno di doppi apici o un apice e può essere trascrtitto in questi tre modi:
 let str1 = "Questa è una 'Stringa'"; //Possiamo usare doppio apice esterno e un apice all'interno;
 let str2 = 'Questa è una "Stringa"'; //Possiamo usare un apice esterno e doppio apice all'interno;
-let str3 = "Questa è una \'nuova' Stringa"; // Inoltre, possiamo inserire all'interno degli apici uno slash per far sì che gli apici interni non vengano letti.
+let str3 = "Questa è una /'nuova' Stringa"; // Inoltre, possiamo inserire all'interno degli apici uno slash per far sì che gli apici interni non vengano letti.
 
 console.log(str1);
 console.log(str2);
@@ -74,6 +74,7 @@ console.log(x);
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+// let name = "Xhoana"; // Errore.
 // const name = "Beqiri"; // Non è possibile cambiare il valore della nostra variabile poichè il costrutto const ha un unico valore e non può essere riassegnato. 
 
 /* ESERCIZIO 6
