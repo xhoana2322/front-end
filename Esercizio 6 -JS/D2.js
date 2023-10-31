@@ -18,9 +18,9 @@ if(num1 < num2) {
 
 /* SCRIVI QUI LA TUA RISPOSTA */  
 
-let num = prompt('Inserisci un numero');
+let num = 9;
 if (num != 5) {
-  console.log('not equal')
+  console.log(num + 'not equal')
 }
 
 
