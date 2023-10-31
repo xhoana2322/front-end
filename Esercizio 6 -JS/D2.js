@@ -30,9 +30,9 @@ if (num != 5) {
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-let num3 = prompt('Inserisci un numero');
+let num3 = 15;
 if (num3 % 5 === 0) {
-  console.log('divisibile per 5')
+  console.log(num3 + 'è divisibile per 5')
 }  
 
 /* ESERCIZIO 4 ---> OKAY
