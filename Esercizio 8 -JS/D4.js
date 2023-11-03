@@ -118,36 +118,53 @@ function reverseString(str) {
 let rev = reverseString("EPICODE");
 console.log(rev);
 
-/* ESERCIZIO 8 --> OKAY
+/* ESERCIZIO 8 --> non va...
  Scrivi una funzione di nome "upperFirst", che riceve come parametro una stringa formata da diverse parole.
  La funzione deve rendere maiuscola la prima lettera di ogni parola contenuta nella stringa.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-let par = 'John';
-let par2 = par.slice(1);
 
+/*  function upperFirst(parola) {
+    return parola.charAt(0).toUpperCase() + parola.slice(1);
+ }     
 
-function upperFirst() {
-   
-}    
+ let str1 = parola('john');
+console.log(parola);
 
-console.log(par2); 
+*/
 
-/* ESERCIZIO 9
+/* ESERCIZIO 9 --> OKAY
  Scrivi una funzione di nome "cutString", che riceve come parametro una stringa. La funzione deve creare 
  una nuova stringa senza il primo e l'ultimo carattere della stringa originale.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+let striga1 = 'Ciao sono Pippo Baudo'
+console.log(striga1);
+
+function cutString(pippo) {
+    return  pippo.slice(4, -5); 
+}
+
+let pip = cutString ('Ciao sono Pippo Baudo');
+console.log(pip);
 
 
-
-
-/* ESERCIZIO 10
+/* ESERCIZIO 10 --> forse okay
  Scrivi una funzione di nome "giveMeRandom", che accetta come parametro un numero n e 
  ritorna un'array contenente n numeri casuali inclusi tra 0 e 10.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */////
+/* SCRIVI QUI LA TUA RISPOSTA */
+
+let num1 = Math.floor(Math.random() * 10) + 1;
+
+function giveMeRandom(n) {
+    num2.push(num1);
+    return num2;
+}
+
+let num2 = [num1];
+console.log(num2);
