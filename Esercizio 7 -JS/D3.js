@@ -193,31 +193,69 @@ console.log(crewMass)
   console.log("Ship is under loaded")
 } else if (crewMass > 500); {
   console.log("Ship is half loaded")
-} else if (crewMass > 700); {
+}  else if (crewMass > 700); {
   console.log("Warning: Load is over 700")
-} else if (crewMass > 900) {
+}  else if (crewMass > 900) {
   console.log('Critical Load: Over 900')
-} else if ( crewMass > 1000) {
+}  else if ( crewMass > 1000) {
   console.log("DANGER! OVERLOAD ALERT: escape from ship now!")
 } else {
   console.log("Errore")
-} 
-*/
+} */
+
 
 
 /* ESERCIZIO 8
-  Usa un for loop per cambiare il valore della proprietà "gender" di alcuni personaggi dal valore "n/a" a "robot" 
+  Usa un for loop per cambiare il valore della proprietà "gender" di alcuni personaggi dal 
+  valore "n/a" a "robot" 
   (Tip: puoi effettuare la riassegnazione del valore corrispondente o creare un nuovo array)
 */
 
-delete starWarsCharacters.gender;
+/* delete starWarsCharacters.gender;
+console.log(starWarsCharacters)
+*/
+
+for(let i=0; i < starWarsCharacters.length; i++) {
+  // console.log(starWarsCharacters[i].gender);
+  if (starWarsCharacters[i].gender === "n/a") {
+    // console.log(starWarsCharacters[i]);
+    starWarsCharacters[i].gender = "robot";
+  }
+}
+
 console.log(starWarsCharacters)
 
 
+
 /* --EXTRA-- ESERCIZIO 9
-  Utilizzando gli elementi presenti nell'array "femaleCharacters" rimuovi dall'array "characters" le stringhe corrispondenti a personaggi con lo stesso nome.
-  Una volta fatto crea un console.log per controllare la proprietà length di "characters" prima e dopo l'operazione.
+  Utilizzando gli elementi presenti nell'array "femaleCharacters" rimuovi dall'array "characters" 
+  le stringhe corrispondenti a personaggi con lo stesso nome.
+  Una volta fatto crea un console.log per controllare la proprietà length di "characters" prima 
+  e dopo l'operazione.
 */
+ /* console.log(characters)
+let name;
+for(let i=0; i < starWarsCharacters.length; i++) {
+  // console.log(femaleCharacters[i].name)
+  for(let j=0; j < characters.length; j++) {
+    if (characters[j] === femaleCharacters[i].name) {
+      // console.log(femaleCharacters[i].name)
+      characters.splice(j, 1);
+    }
+  }
+}
+
 /*--EXTRA-- ESERCIZIO 10
- Crea una funzionalità che selezioni un elemento casuale dall'array "starWarsCharacters" e ne stampi in console le proprietà in modo discorsivo (a tuo piacimento).
+ Crea una funzionalità che selezioni un elemento casuale dall'array "starWarsCharacters" e 
+ ne stampi in console le proprietà in modo discorsivo (a tuo piacimento).
 */
+
+console.log(starWarsCharacters.lenght);
+let rand = Math.random() * 10;
+console.log(rand)
+
+let randFloor = Math.floor(rand)
+console.log(randFloor)
+
+console.log(starWarsCharacters[randFloor])
+
