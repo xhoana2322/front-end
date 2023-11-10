@@ -6,6 +6,8 @@
 
     const changeTitle = function () {
         h1.innerText = "Titolo iniziale della pagina"
+
+        // document.querySelector("div > h1").innerText = "Titolo iniziale della pagina"
     }
 
     changeTitle()
@@ -20,9 +22,10 @@
 
     const addClassToTitle = function () {
         classe.classList.add("myHeading")
+
+        //  document.querySelector('div < h1').className = "myHeading"
     }
     
- 
     addClassToTitle()
 
 
@@ -38,8 +41,23 @@
     }
 
     changePcontent()
+
+   /*  const changePcontent = function () {
+        const p = document.querySelectorAll('div > p')
+        // console.log(p)  
+
+        p.forEach(paragraph => {
+            paragraph.innerText = "Ho cambiato il testo dei p figli di div"
+        }) 
+
+        changePcontent()  */
+
+        //   N.B. si usa il forEach per applicare la stessa modifica a tutti i p
+        
+    
+
  
-/* ESERCIZIO 4 --> non viene...
+/* ESERCIZIO 4 --> OKAYYY
     Scrivi una funzione che cambi la proprietà href di ogni link (tranne quello nel footer) con il valore https://www.google.com
 */
 
@@ -67,7 +85,7 @@
     Scrivi una funzione che aggiunga un paragrafo al primo div
  */
 
-/*     let div1 = document.querySelectorAll('body > div:firstoftype');
+ /* let div1 = document.querySelectorAll('div');
 console.log(div1)
 
     const addParagraph = function () {
