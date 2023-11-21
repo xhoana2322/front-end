@@ -285,6 +285,10 @@ footer a {
         width: 80%;
     }
 
+    fieldset input, fieldset button {
+        height: 40px;
+    }
+
     footer {
         font-size: 1.8rem;
         padding: 2rem;
@@ -379,6 +383,10 @@ footer a {
         width: 80%;
     }
 
+    fieldset input, fieldset button {
+        height: 40px;
+    }
+
     aside h2 {
         font-size: 2.8rem;
     }
@@ -409,6 +417,7 @@ footer a {
         width: 6rem;
         padding: 3px;
     }
+
     body {
         font-size: 2.2rem;
     }
