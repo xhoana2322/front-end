@@ -115,7 +115,8 @@ main {
   padding: 0.4em 0.7em;
   position: fixed;
   bottom: 20px;
-  right: 35px;
+  right: 10px;
+  z-index: 10;
 }
 
 #calendar {
@@ -127,7 +128,8 @@ main {
   padding: 0.4em 0.7em;
   position: fixed;
   bottom: 80px;
-  right: 35px;
+  right: 10px;
+  z-index: 10;
 }
 
 #socialPage {
@@ -139,7 +141,8 @@ main {
   padding: 0.4em 0.7em;
   position: fixed;
   bottom: 140px;
-  right: 35px;
+  right: 10px;
+  z-index: 10;
 }
 
 section {
