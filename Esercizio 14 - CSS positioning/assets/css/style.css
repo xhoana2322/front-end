@@ -142,13 +142,10 @@ main {
   right: 35px;
 }
 
-
 section {
   background-color: #e3e3e3;
   padding: 1.5em 1em;
   margin-bottom: 2em;
-  position: relative;
-  margin: 0 auto;  /*controllare come fare a centrare il testo nel contenitore*/
 }
 
 section h2 {
@@ -299,23 +296,6 @@ iframe {
   }
 }
 
-/* SECTION */
-
-section h2 {
-  width: 30%;
-  height: 50px;
-  text-transform: uppercase;
-  font-weight: 900;
-  color: black;
-  position: relative;
-  top: -50px;                   /*controllare come fare a centrare il testo nel contenitore*/
-}
-
-section  {
-  margin: 0 auto;  /*controllare come fare a centrare il testo nel contenitore*/
-}
-
-
 /* TABELLE */
 table {
   margin-bottom: 2em;
@@ -402,6 +382,31 @@ aside div {
   margin-bottom: 1em;
   padding: 1em;
 }
+
+#tag1 {
+  float: right;
+  font-size: 50px;
+  position: relative;
+  top: -30px;
+  color: rgb(197, 197, 197);
+}
+
+#tag2 {
+  float: right;
+  font-size: 50px;
+  position: relative;
+  top: -30px;
+  color: rgb(197, 197, 197);
+}
+
+#tag3 {
+  float: right;
+  font-size: 50px;
+  position: relative;
+  top: -30px;
+  color: rgb(197, 197, 197);
+}
+
 
 @media screen and (min-width: 1200px) {
   aside div {
