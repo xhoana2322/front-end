@@ -437,7 +437,7 @@ footer {
 
 @media screen and (min-width: 800px) {
   footer {
-    padding: 1em 12em;
+    font-size: 1.2em;
   }
 }
 
