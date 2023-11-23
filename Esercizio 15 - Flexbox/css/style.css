@@ -214,9 +214,10 @@ aside img {
     }
 
     article div {
-        width: 50%;
+        width: 45%;
         display: flex;
         flex-wrap: wrap;
+        margin-right: 0.1rem;
     }
 
     #card5 {
