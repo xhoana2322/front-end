@@ -64,8 +64,9 @@ main {
 
 main  h1 {
    text-align: center;
+   font-size: 2.5rem;
    font-weight: 900;
-   width: 90%;
+   width: 100%;
 }
 
 /* ARTICLE */
@@ -88,7 +89,7 @@ article img {
 }
 
 article span {
-    display: inline-block;
+    display: block;
 }
 
 .price {
@@ -154,6 +155,12 @@ aside img {
 
     body {
         margin-top: 0;
+        padding: 0;
+        margin: 0;
+    }
+
+    header {
+        width: 100%;
     }
 
     header nav {
@@ -186,9 +193,9 @@ aside img {
 
     /*MAIN*/
 
-    /* main {
-        display: flex;
-    } */
+    main {
+        margin: 1rem;
+    }
 
     h1 {
         width: 100%;
