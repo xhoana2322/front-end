@@ -7,29 +7,32 @@ body {
 
 #post1, #post5, #post7 {
     background-color: #f9fac8;
+    box-shadow: inset 1px 2px 30px rgba(128, 128, 128, 0.801);
 }
 
 #post2, #post4, #post8 {
     background-color: #c7f6c9;
+    box-shadow: inset 1px 2px 30px rgba(128, 128, 128, 0.801);
 }
 
 #post3, #post6 {
     background-color: #c5c5f0 ;
+    box-shadow: inset 1px 2px 30px rgba(128, 128, 128, 0.801);
 }
 
 article {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-evenly;
-    margin-top: 2rem;
+    justify-content: space-around;
+    margin: 3rem 4rem;
 }
 
 article div {
     width: 22%;
     height: 200px;
     text-align: center;
-    margin-bottom: 1rem;
+    margin-bottom: 2.5rem;
 }
 
 article div p:first-of-type {
@@ -49,5 +52,107 @@ article div p:last-child {
 
 
 #post1 {
-    
+    transform: rotateZ(-3deg);
+    transition-property: transform;
+}
+
+#post1:hover {
+    transform: scale(1.2);
+    transition-duration: 2s;
+}
+
+
+
+#post2 {
+    transform: rotateZ(6deg);
+    transition-property: transform;
+}
+
+#post2:hover {
+    transform: scale(1.2);
+    transition-duration: 2s;
+}
+
+
+
+#post3 {
+    transform: rotateZ(-7deg);
+    transition-property: transform;
+}
+
+#post3:hover {
+    transform: scale(1.2);
+    transition-duration: 2s;
+}
+
+
+
+#post4 {
+    transform: rotateZ(10deg);
+    transition-property: transform; 
+}
+
+#post4:hover {
+    transform: scale(1.2);
+    transition-duration: 2s;
+}
+
+
+
+#post5 {
+    transform: rotateZ(-4deg);
+    transition-property: transform; 
+}
+
+#post5:hover {
+    transform: scale(1.2);
+    transition-duration: 2s;
+}
+
+
+
+#post6 {
+    transform: rotateZ(-11deg);
+    transition-property: transform; 
+}
+
+#post6:hover {
+    transform: scale(1.2);
+    transition-duration: 2s;
+}
+
+
+
+#post7 {
+    transform: rotateZ(-6deg);
+    transition-property: transform; 
+}
+
+#post7:hover {
+    transform: scale(1.2);
+    transition-duration: 2s;
+}
+
+
+
+#post8 {
+    transform: rotateZ(3deg);
+    /* -webkit-animation: post8 2000ms ease-in-out 0.5s 1 alternate; */
+    transition-property: transform; 
+
+}
+
+/* @keyframes post8 {
+    from {transform: scale3d(1, 1, 1);}
+    50% {transform: rotateZ(0deg);}
+    to {transform: scale3d(1.2, 1.2, 1.2);}
+}
+
+#post8:hover {
+    transform: scale3d(1.5, 1.5, 1.5);
+} */
+
+#post8:hover {
+    transform: scale(1.2);
+    transition-duration: 2s;
 }
