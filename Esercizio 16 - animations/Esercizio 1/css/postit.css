@@ -54,6 +54,10 @@ article div p:last-child {
 #post1 {
     transform: rotateZ(-3deg);
     transition-property: transform;
+    /* animation: load 1000ms linear 0 1 alternate; */
+    /* position: relative;
+    opacity: 1;
+    animation: load 2s; */
 }
 
 #post1:hover {
@@ -62,6 +66,25 @@ article div p:last-child {
     box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.801);
 }
 
+
+ /* @keyframes load {
+    from {transform: scale(2);}
+    50% {transform: scale(1);}
+    to {transform: scale(0);}
+}  */
+
+/* 
+ @keyframes load {
+    from {
+        opacity: 1;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+        transition-delay: 1s;
+    }
+}  */
 
 
 #post2 {
@@ -163,4 +186,14 @@ article div p:last-child {
     transform: scale(1.2);
     transition-duration: 2s;
     box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.801);
+}
+
+
+/* EXTRA */
+
+
+@keyframes load {
+    from {transform: scale(2);}
+    50% {transform: scale(1);}
+    to {transform: scale(0);}
 }
