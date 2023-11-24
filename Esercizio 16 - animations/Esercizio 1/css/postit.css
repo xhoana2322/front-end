@@ -1,4 +1,4 @@
-/* IMPOSTAZIONE PAGINA */
+/* IMPOSTAZIONE PAGINA (1020 x 1300)*/
 
 body {
     font-family: 'Indie Flower', cursive;
@@ -7,17 +7,17 @@ body {
 
 #post1, #post5, #post7 {
     background-color: #f9fac8;
-    box-shadow: inset 1px 2px 30px rgba(128, 128, 128, 0.801);
+    box-shadow: inset 1px 2px 30px rgba(194, 194, 194, 0.801);
 }
 
 #post2, #post4, #post8 {
     background-color: #c7f6c9;
-    box-shadow: inset 1px 2px 30px rgba(128, 128, 128, 0.801);
+    box-shadow: inset 1px 2px 30px rgba(194, 194, 194, 0.801);
 }
 
 #post3, #post6 {
     background-color: #c5c5f0 ;
-    box-shadow: inset 1px 2px 30px rgba(128, 128, 128, 0.801);
+    box-shadow: inset 1px 2px 30px rgba(194, 194, 194, 0.801);
 }
 
 article {
@@ -59,6 +59,7 @@ article div p:last-child {
 #post1:hover {
     transform: scale(1.2);
     transition-duration: 2s;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.801);
 }
 
 
@@ -71,6 +72,7 @@ article div p:last-child {
 #post2:hover {
     transform: scale(1.2);
     transition-duration: 2s;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.801);
 }
 
 
@@ -83,6 +85,7 @@ article div p:last-child {
 #post3:hover {
     transform: scale(1.2);
     transition-duration: 2s;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.801);
 }
 
 
@@ -95,6 +98,7 @@ article div p:last-child {
 #post4:hover {
     transform: scale(1.2);
     transition-duration: 2s;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.801);
 }
 
 
@@ -107,6 +111,7 @@ article div p:last-child {
 #post5:hover {
     transform: scale(1.2);
     transition-duration: 2s;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.801);
 }
 
 
@@ -119,6 +124,7 @@ article div p:last-child {
 #post6:hover {
     transform: scale(1.2);
     transition-duration: 2s;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.801);
 }
 
 
@@ -131,6 +137,7 @@ article div p:last-child {
 #post7:hover {
     transform: scale(1.2);
     transition-duration: 2s;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.801);
 }
 
 
@@ -155,4 +162,5 @@ article div p:last-child {
 #post8:hover {
     transform: scale(1.2);
     transition-duration: 2s;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.801);
 }
