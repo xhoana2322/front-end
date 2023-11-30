@@ -1,0 +1,16 @@
+
+
+button {
+    .btn1 {
+            @include colore(#0e6cff);
+    }
+        
+    .btn2 {
+            @include colore(#ff8700);
+    }
+        
+    .btn3 {
+            @include colore(#4caf50);
+    }
+}
+
