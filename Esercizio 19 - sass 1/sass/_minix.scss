@@ -9,3 +9,11 @@
     font-size: $fontSize;
     font-weight: $fontWeight;
 }
+
+// @mixin font ($fontFamily) {
+//     font-family: $fontFamily;
+// }
+
+@mixin font {
+    $font-default: Arial, Helvetica, sans-serif;
+}
