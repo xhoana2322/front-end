@@ -1,0 +1,23 @@
+@import '../../assets/sass/overwrite-bootstrap';
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.bell {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bade {
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    top: 0;
+    right: 100;
+}
+
+
