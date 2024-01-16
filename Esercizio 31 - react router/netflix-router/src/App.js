@@ -1,20 +1,21 @@
 import './App.css';
-import {  Container, Navbar } from 'react-bootstrap';
+import {  Container } from 'react-bootstrap';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import HomePage from './pages/HomePage';
+import NavbarComp from './components/NavbarComp';
 
 
 function App() {
   return (
     <>
     <BrowserRouter>
-      <Navbar>
+      <NavbarComp>
         <Container>
             <Routes>
               <Route path='/' element={<HomePage />} />
             </Routes>
         </Container>
-      </Navbar>
+      </NavbarComp>
     </BrowserRouter>
     </>
   );
